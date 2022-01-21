@@ -1,0 +1,10 @@
+name = "cobs"
+description = "Consistent Overhead Byte Stuffing"
+version = "0.1.0"
+
+authors = ["Fabien Chouteau"]
+maintainers = ["Fabien Chouteau <fabien.chouteau@gmail.com>"]
+maintainers-logins = ["Fabien-Chouteau"]
+
+[[depends-on]]
+bbqueue = "~0.3.0"
