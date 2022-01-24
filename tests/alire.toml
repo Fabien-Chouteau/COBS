@@ -7,13 +7,11 @@ maintainers = ["Fabien Chouteau <fabien.chouteau@gmail.com>"]
 maintainers-logins = ["Fabien-Chouteau"]
 
 executables = ["tests"]
-[[depends-on]]  # Added by alr
-cobs = "~0.0.0"  # Added by alr
-[[pins]]  # Added by alr
-cobs = { path='../../cobs' }   # Added by alr
-[[depends-on]]  # Added by alr
-aaa = "~0.2.4"  # Added by alr
-[[pins]]  # Added by alr
-aaa = { url='https://github.com/mosteo/aaa' }   # Added by alr
-[[depends-on]]  # Added by alr
-aunit = "^22.0.0"  # Added by alr
+[[depends-on]]
+cobs = "*"
+aaa = "~0.2.4"
+aunit = "^22.0.0"
+
+[[pins]]
+cobs = { path='..' }
+aaa = { url='https://github.com/mosteo/aaa' }
