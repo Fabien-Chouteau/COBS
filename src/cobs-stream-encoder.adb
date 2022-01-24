@@ -1,4 +1,4 @@
-package body COBS.Encoder is
+package body COBS.Stream.Encoder is
 
    subtype Dispatch is Instance'Class;
 
@@ -56,4 +56,4 @@ package body COBS.Encoder is
       This.Prev_Code := 1;
    end End_Frame;
 
-end COBS.Encoder;
+end COBS.Stream.Encoder;

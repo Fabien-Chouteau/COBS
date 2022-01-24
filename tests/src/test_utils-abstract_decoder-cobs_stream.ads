@@ -1,4 +1,4 @@
-with COBS.Decoder;
+private with COBS.Stream.Decoder;
 
 package Test_Utils.Abstract_Decoder.COBS_Stream is
 
@@ -23,7 +23,7 @@ package Test_Utils.Abstract_Decoder.COBS_Stream is
 
 private
 
-   type Test_Decoder is new COBS.Decoder.Instance with record
+   type Test_Decoder is new COBS.Stream.Decoder.Instance with record
       Frames : Data_Frame_Vectors.Vector;
       Output : Data_Frame;
    end record;

@@ -1,4 +1,4 @@
-package body COBS.Decoder is
+package body COBS.Stream.Decoder is
 
    subtype Dispatch is Instance'Class;
 
@@ -54,4 +54,4 @@ package body COBS.Decoder is
       end if;
    end Push;
 
-end COBS.Decoder;
+end COBS.Stream.Decoder;

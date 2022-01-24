@@ -1,4 +1,4 @@
-private with COBS.Encoder;
+private with COBS.Stream.Encoder;
 
 package Test_Utils.Abstract_Encoder.COBS_Stream is
 
@@ -23,7 +23,7 @@ package Test_Utils.Abstract_Encoder.COBS_Stream is
 
 private
 
-   type Test_Instance is new COBS.Encoder.Instance with record
+   type Test_Instance is new COBS.Stream.Encoder.Instance with record
       Output : Data_Frame;
    end record;
 
